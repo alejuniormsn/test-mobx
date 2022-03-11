@@ -2,7 +2,6 @@ import React from "react";
 import { observer } from 'mobx-react-lite'
 
 const App = observer((props) => {
-  console.log(props);
   return (
     <div>
       <h1>Contador</h1>
